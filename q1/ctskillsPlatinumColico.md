@@ -22,34 +22,36 @@ Define Computational Thinking Approaches:
     Solution: Identify hours of most use during lunch breaks and program background memory clearing routines to those specific time period.
 
 Psuedocode:
-BEGIN CanteenCheckout
-    SET totalCost = 0
-    SET itemPrice = 0
-    SET quantity = 0
-    SET amountPaid = 0
-    SET change = 0
-    
-    DISPLAY "--- Smart Canteen Checkout System ---"
-    REPEAT
-        INPUT itemPrice
-        INPUT quantity
-        SET itemTotal = itemPrice * quantity
-        SET totalCost = totalCost + itemTotal
-        
-    INPUT "Add another item? (YES/NO)", userChoice
-        UNTIL userChoice == "NO"
-    
-    DISPLAY "Total Amount Due: " + totalCost
-    
-    REPEAT
-        INPUT "Enter cash payment: ", amountPaid
-        IF amountPaid < totalCost THEN
-            DISPLAY "Insufficient payment. Please enter a valid amount."
-        ENDIF
-    UNTIL amountPaid >= totalCost
-    
-    SET change = amountPaid - totalCost
-    DISPLAY "Payment Accepted!"
-    DISPLAY "Change to return: " + change
 
-END CanteenCheckout
+    BEGIN CanteenCheckout
+      SET totalCost = 0
+      SET itemPrice = 0
+      SET quantity = 0
+      SET amountPaid = 0
+      SET change = 0
+    
+        DISPLAY "--- Smart Canteen Checkout System ---"
+        REPEAT
+            INPUT itemPrice
+            INPUT quantity
+            SET itemTotal = itemPrice * quantity
+            SET totalCost = totalCost + itemTotal
+        
+        INPUT "Add another item? (YES/NO)", userChoice
+            UNTIL userChoice == "NO"
+    
+        DISPLAY "Total Amount Due: " + totalCost
+    
+        REPEAT
+            INPUT "Enter cash payment: ", amountPaid
+            IF amountPaid < totalCost THEN
+       
+        DISPLAY "Insufficient payment. Please enter a valid amount."
+          ENDIF
+              UNTIL amountPaid >= totalCost
+    
+        SET change = amountPaid - totalCost
+        DISPLAY "Payment Accepted!"
+        DISPLAY "Change to return: " + change
+
+    END CanteenCheckout
