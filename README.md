@@ -6,6 +6,6 @@ Age: 13 Years Old
 
 Assignments:
  
- • [Computational Thinking Exercise](ctskillsPlatinumColico.md)
+ • [Computational Thinking Exercise](q1/ctskillsPlatinumColico.md)
  
- • [Chinese Zodiac](zodiacPlatinumColico.py)
+ • [Chinese Zodiac](q1/zodiacPlatinumColico.py)
