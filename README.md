@@ -6,6 +6,8 @@ Section: 9-Platinum
 
 Age: 13 Years Old
 
+Code Name: "Uncle Sammy"
+
 Assignments:
  
  • [Computational Thinking Exercise](q1/ctskillsPlatinumColico.md)
