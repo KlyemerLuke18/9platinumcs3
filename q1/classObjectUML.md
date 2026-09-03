@@ -1,7 +1,7 @@
 # SG4 - Understanding Classes and Objects
-# Klyemer Luke S. Colico
-## Car Information
-## My class represents the information and the specification of Cars. It shows how well the car is
+
+Car Information
+My class represents the information and the specification of Cars. It shows how well the car is
 
 ## Properties
 Property       Data Type        Description
