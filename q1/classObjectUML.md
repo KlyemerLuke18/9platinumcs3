@@ -16,7 +16,7 @@ drive()        If the car allows driving.
 capacity()     The capacity of what the car can handle.
 maxSpeed()     How fast the car can go.
 
- • [UML Diagram](q1/UMLdiagram.png)
+ • [UML Diagram](q1/UMLdiagram)
 
 ### Why did you choose this class?
 I wanted to know if the cars are good enough to buy or not.
