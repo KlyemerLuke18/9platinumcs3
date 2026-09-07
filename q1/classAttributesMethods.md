@@ -20,8 +20,6 @@ Refined property names to standard Python (`carBrand`, `yearCreation`, `carValue
 | `performance`  | `string`  | Public     | Descriptive performance rating.                                            |
 | `carValue`     | `integer` | Private    | Sensitive financial value protected from direct modification.              |
 
----
-
 ## Updated UML Class Diagram
 [Class Diagram](images/classDiagramSG5.png)
 
@@ -34,8 +32,9 @@ Refined property names to standard Python (`carBrand`, `yearCreation`, `carValue
 ## Object Diagram
 ![Object Diagram](images/objectDiagram.png)
 
+---
 
-# Analysis:
+### Analysis:
 
 ## Why did you make your chosen attribute private?
 The carValue attribute was made private (__carValue) to prevent accidental or invalid direct changes from outside the class. Keeping it private ensures monetary amounts are modified safely using controlled methods like set_value().  
