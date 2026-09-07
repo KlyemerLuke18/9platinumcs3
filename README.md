@@ -1,4 +1,4 @@
-## **Computer Science 3 Information:**
+# **Computer Science 3 Information:**
 
 Name: Klyemer Luke S. Colico
 
@@ -14,4 +14,6 @@ Age: 13 Years Old
 
  • [OOP Concept](q1/ila_oop.md)
 
- • [OOP Seed System](q1/classObjectUML.md)
+ • [OOP Seed System Pt. I](q1/classObjectUML.md)
+
+ • [OOP Seed System Pt. II](q1/classImplementation.md)
