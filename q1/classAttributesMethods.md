@@ -8,7 +8,7 @@ Link to my previous activity:
 
 ## Design Revision
  
-Refined property names to standard Python `snake_case` (`carBrand`, `yearCreation`, `carValue`, `performance`). Added `speed` to track driving state and turned `carValue` as a private attribute.
+Refined property names to standard Python (`carBrand`, `yearCreation`, `carValue`, `performance`). Added `speed` to track driving state and turned `carValue` as a private attribute.
 
 ---
 
