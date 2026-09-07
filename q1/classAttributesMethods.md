@@ -23,6 +23,16 @@ Refined property names to standard Python (`carBrand`, `yearCreation`, `carValue
 ---
 
 ## Updated UML Class Diagram
+[Class Diagram](images/classDiagramSG5.png)
+
+## Python Implementation
+[View Python Source](classImplementation.py)
+
+## Test Run
+![Test Run](images/classTestRun.png)
+
+## Object Diagram
+![Object Diagram](images/objectDiagram.png)
 
 
 # Analysis:
