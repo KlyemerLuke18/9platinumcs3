@@ -16,4 +16,4 @@ Age: 13 Years Old
 
  • [OOP Seed System Pt. I](q1/classObjectUML.md)
 
- • [OOP Seed System Pt. II](q1/classImplementation.md)
+ • [OOP Seed System Pt. II](q1/classAttributeMethods.md)
