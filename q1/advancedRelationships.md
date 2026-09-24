@@ -31,7 +31,7 @@ The previous system modeled a CarInformation class representing vehicle attribut
 [Test Output](images/advancedTestRun.png)
 
 ## Object Diagram
-![Object Diagram](images/advancedObjectDiagram.png)
+[Object Diagram](images/advancedObjectDiagram.png)
 
 ## Reflection
 
