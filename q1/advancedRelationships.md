@@ -1,7 +1,7 @@
 # SG5 - Advanced Class Relationships
 # Klyemer Luke S. Colico
 
-## Previous Activities
+## Previous Work
 * [Part I - Understanding Classes and Objects](classObjectUML.md)
 * [Part II - Class Attributes and Methods](classAttributesMethods.md)
 * [Part III - Class Relationships](classRelationships.md)
