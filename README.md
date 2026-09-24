@@ -19,3 +19,5 @@ Age: 13 Years Old
  • [OOP Seed System Pt. II](q1/classAttributeMethods.md)
 
  • [OOP Seed System Pt. III](q1/classRelationships.md)
+
+ • [OOP Seed System Pt. IV](q1/advancedRelationships.md)
