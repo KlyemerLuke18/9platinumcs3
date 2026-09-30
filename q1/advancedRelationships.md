@@ -36,16 +36,16 @@ The previous system modeled a CarInformation class representing vehicle attribut
 ## Reflection
 
 ### 1. Why did you choose your inheritance relationship?
-I chose `lectricCar as a child of CarInformation because an electric car is a vehicle with all standard automotive properties (brand, year, driving capabilities), but requires specialized attributes like battery capacity.
+I chose ElectricCar as a child of CarInformation because an electric car is a vehicle with all standard automotive properties (brand, year, driving capabilities), but requires specialized attributes like battery capacity.
 
 ### 2. How did inheritance reduce duplicate code?
-Inheritance allowed `ElectricCar` to reuse carBrand, yearCreation, carValue, performance, and methods like drive() without re-declaring them. Reusing code via super().__init__() avoided redundant property initializations.
+Inheritance allowed ElectricCar to reuse carBrand, yearCreation, carValue, performance, and methods like drive() without re-declaring them. Reusing code via super().__init__() avoided redundant property initializations.
 
 ### 3. Why is your HAS-A relationship Composition or Aggregation?
 The relationship between ElectricCar and BatterySystem is Composition because the battery system is instantiated directly within the car and cannot exist independently in the model. The Dealership to CarInformation relationship is Aggregation because vehicles exist as independent entities before being added to a dealership's inventory list.
 
 ### 4. What is the difference between Association from Part III and the advanced relationship you implemented?
-Association in Part III represented a generic connectivity line showing that Dealership holds CarInformation objects. Advanced relationships explicitly define lifetime ownership or hierarchical type of extension.
+Association in Part III represented a generic connecting line showing that Dealership holds CarInformation objects. Advanced relationships explicitly define lifetime ownership or hierarchical type of extension.
 
 ### 5. How does your design follow the DRY principle?
 By placing common vehicle properties in CarInformation and delegating battery-specific tracking to BatterySystem, code duplication is eliminated across vehicle types, making the system modular and easy to maintain.
