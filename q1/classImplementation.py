@@ -15,8 +15,7 @@ class CarInformation:
             self.carValue = newValue
 
     def get_info(self) -> str:
-        """Returns car details including private value."""
-        return f"{self.yearCreation} {self.carBrand} | Value: ${self.carValue} | Speed: {self.speed} km/h"
+        return f"{self.yearCreation} {self.carBrand} | Value: {self.carValue} | Speed: {self.speed} km/h"
 
 
 if __name__ == "__main__":
