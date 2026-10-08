@@ -43,7 +43,7 @@ The carValue attribute was made private (__carValue) to prevent accidental or in
 The drive() method alters the object's state by updating speed, while set_value() modifies the private __car_value attribute. Both methods validate input parameters before updating the internal variables.  
 
 ## How did your two objects demonstrate that instances are independent?
-When methods were called on car1, its speed updated to 80 km/h and value changed to $18,000, while car2 retained its original values (0 km/h and $120,000). This proves each instance maintains its own separate memory space.  
+When methods were called on car1, its speed updated to 80 km/h and value changed to $18,000, while car2 retained its original values (0 km/h and 120,000Php). This proves each instance maintains its own separate memory space.  
 
 ## What is the difference between your class diagram and your object diagram?
 The class diagram shows the static structure and design blueprint containing data types and signatures. The object diagram captures a specific runtime snapshot showing actual assigned values for each created instance[cite: 2].  
