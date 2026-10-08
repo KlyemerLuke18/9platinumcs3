@@ -6,7 +6,7 @@ Section: 9-Platinum
 
 Age: 13 Years Old
 
-# Assignments:
+# Assignments for Quarter 1:
  
  • [Computational Thinking Exercise](q1/ctskillsPlatinumColico.md)
  
@@ -21,3 +21,7 @@ Age: 13 Years Old
  • [OOP Seed System Pt. III](q1/classRelationships.md)
 
  • [OOP Seed System Pt. IV](q1/advancedRelationships.md)
+
+# Assignments for Quarter 2:
+
+ • [Encapsulation](q2/sg8_encapsulation.py)
