@@ -25,3 +25,12 @@ Age: 13 Years Old
 # Assignments for Quarter 2:
 
  • [Encapsulation](q2/sg8_encapsulation.py)
+
+ • [Inheritance](q2/sg8_inheritance.py)
+
+
+
+
+
+
+
