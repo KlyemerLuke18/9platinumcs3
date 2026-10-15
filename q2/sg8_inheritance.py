@@ -62,16 +62,12 @@ class Magazine(Publication):
 
 #printing of publication, book, and magazine information
 print("Publication Information:")
-pub1 = Publication("Journal of Experimental Psychology", "Ratchiff, R. & Van Dongen, H.")
-pub1.display_info()
-print()
-
-print("Book Information:")
-invalid_book = Book("Faulty Book", "Unknown", -5) 
+public1 = Publication("Journal of Experimental Psychology", "Ratchiff, R. & Van Dongen, H.")
+public1.display_info()
+print("\nBook Information:")
+book_invalid = Book("Faulty Book", "Unknown", -5) 
 book1 = Book("The Hobbit", "J.R.R. Tolkien", 310)
 book1.display_info()
-print()
-
-print("Magazine Information:")
-mag1 = Magazine("National Geographic", "Various Authors", 202)
-mag1.display_info()
+print("\nMagazine Information:")
+magasin1 = Magazine("National Geographic", "Various Authors", 202)
+magasin1.display_info()
