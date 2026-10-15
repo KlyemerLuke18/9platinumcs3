@@ -1,3 +1,6 @@
+## Klyemer Luke S. Colico
+## 9-Platinum
+
 #creating of publication class
 class Publication:
     def __init__(self, title: str, author: str):
@@ -30,7 +33,6 @@ class Book(Publication):
     def display_info(self):
         super().display_info()
         print(f"Number of pages: {self._number_of_pages}")
-
 #creation of magazine class that is also inherited from publication class
 class Magazine(Publication):
     def __init__(self, title: str, author: str, issue_number: int):
@@ -47,7 +49,6 @@ class Magazine(Publication):
     def display_info(self):
         super().display_info()
         print(f"Issue number: {self._issue_number}")
-
 #printing of publication, book, and magazine information
 print("Publication Information:")
 public1 = Publication("Journal of Experimental Psychology", "Ratchiff, R. & Van Dongen, H.")
