@@ -1,6 +1,6 @@
 #Klyemer Luke S. Colico #name
 #empty space
-class BankAccount: #creation of class
+class BankAccount: #creation of bank account class
     def __init__(self, account_number: int, balance: float):  #defining variables
         self.__account_number = account_number #defining account number
         self.balance = balance #defining balance
