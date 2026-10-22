@@ -28,6 +28,9 @@ Age: 13 Years Old
 
  • [Inheritance](q2/sg8_inheritance.py)
 
+ • [Method Overriding](q2/sg10_method-overriding.py)
+
+
 
 
 
