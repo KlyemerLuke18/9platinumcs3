@@ -1,38 +1,41 @@
 #Klyemer Luke S. Colico
 #9-Platinum
 
-class Animal:
-    def __init__(self, name):
-        self.name = name
-    def make_sound(self):
-        return self.make_sound
-    def eat(self):
-        return self.eat
-class Lion(Animal):
-    def make_sound(self):
-        return f"{self.name} roars loudly!"
-    def eat(self):
-        return f"{self.name} eats fresh meat."
+# Main Class: Animal
+class Animal:                                         #class animal creation
+    def __init__(self, name):                         #defining the name
+        self.name = name                              #setting name to name
+    def make_sound(self):                             #defining the make_sound variable
+        return self.make_sound                        #returning make_sound as make_sound
+    def eat(self):                                    #defining eldior
+        return self.eat                               #returning eat at eat
+# Child Class: Lion
+class Lion(Animal):                                   #class lion creation
+    def make_sound(self):                             #defining make_sound for lion
+            return f"{self.name} roars loudly!"       #makes a message about lion roaring loudly
+        def eat(self):                                #defining eat for lion
+        return f"{self.name} eats fresh meat."        #makes a message about lion eats fresh meat
 # Child Class: Elephant
-class Elephant(Animal):
-    def make_sound(self):
-        return f"{self.name} trumpets!"
-    def eat(self):
-        return f"{self.name} eats grass and fruits."
-class Monkey(Animal):
-    def make_sound(self):
-        return f"{self.name} chatters!"
-    def eat(self):
-        return f"{self.name} eats bananas."
-lion = Lion("Simba")
-elephant = Elephant("Dumbo")
-monkey = Monkey("George")
-print(lion.make_sound())
-print(lion.eat())
-print("-----")
-print(elephant.make_sound())
-print(elephant.eat())
-print("-----")
-print(monkey.make_sound())
-print(monkey.eat())
-print("-----")
+class Elephant(Animal):                               #class elephant creation
+    def make_sound(self):                             #defining make_sound for elephant
+        return f"{self.name} trumpets!"               #makes a message about elephant trumpets
+    def eat(self):                                    #defining eat for elephant
+        return f"{self.name} eats grass and fruits."  #makes a message about elephant eats grass and fruits
+# Child Class: Monket
+class Monkey(Animal):                                 #class monkey creation
+    def make_sound(self):                             #defining make_sound for monkey
+        return f"{self.name} chatters!"               #makes a message about monkey chatters
+    def eat(self):                                    #defining eat for monkey
+        return f"{self.name} eats bananas."           #makes a message about monkey eats bananas
+lion = Lion("Simba")                                  #gives a name to lion
+elephant = Elephant("Dumbo")                          #gives a name to elephant
+monkey = Monkey("George")                             #given a name to monkey
+print(lion.make_sound())                              #prints Simba roars loudly!
+print(lion.eat())                                     #prints Simba eats fresh meat.
+print("-----")                                        #prints -----
+print(elephant.make_sound())                          #prints Dumbo trumpets!
+print(elephant.eat())                                 #prints Dumbo eats grass and fruits!
+print("-----")                                        #prints -----
+print(monkey.make_sound())                            #prints George chatters!
+print(monkey.eat())                                   #prints George eats bananas!
+print("-----")                                        #prints -----
