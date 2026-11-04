@@ -7,7 +7,7 @@ class Animal:                                         #class animal creation
         self.name = name                              #setting name to name
     def make_sound(self):                             #defining the make_sound variable
         return self.make_sound                        #returning make_sound as make_sound
-    def eat(self):                                    #defining eldior
+    def eat(self):                                    #defining eat
         return self.eat                               #returning eat at eat
 # Child Class: Lion
 class Lion(Animal):                                   #class lion creation
