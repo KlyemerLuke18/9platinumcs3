@@ -1,5 +1,5 @@
-#Klyemer Luke S. Colico
-#9-Platinum
+#Klyemer Luke S. Colico                               #name                                            # comment                                        #this is a comment regarding the name                                #this is a comment regarding the comment regarding the name                    #this is a comment regarding the comment regarding the name
+#9-Platinum                                           #grade & section 
 
 # Main Class: Animal
 class Animal:                                         #class animal creation
