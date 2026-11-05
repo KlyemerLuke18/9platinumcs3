@@ -1,4 +1,4 @@
-#Klyemer Luke S. Colico                               #name                                            # comment                                        #this is a comment regarding the name                                #this is a comment regarding the comment regarding the name                    #this is a comment regarding the comment regarding the comment regarding the name
+#Klyemer Luke S. Colico                               #name                                            # comment                                        #this is a comment regarding the name                                #this is a comment regarding the comment regarding the name                                               #this is a comment regarding the comment regarding the comment regarding the name
 #9-Platinum                                           #grade & section 
 
 # Main Class: Animal
@@ -12,7 +12,7 @@ class Animal:                                         #class animal creation
 # Child Class: Lion
 class Lion(Animal):                                   #class lion creation
     def make_sound(self):                             #defining make_sound for lion
-            return f"{self.name} roars loudly!"       #makes a message about lion roaring loudly
+        return f"{self.name} roars loudly!"           #makes a message about lion roaring loudly
         def eat(self):                                #defining eat for lion
         return f"{self.name} eats fresh meat."        #makes a message about lion eats fresh meat
 # Child Class: Elephant
