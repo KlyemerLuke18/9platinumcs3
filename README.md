@@ -30,6 +30,9 @@ Age: 13 Years Old
 
  • [Method Overriding](q2/sg10_method-overriding.py)
 
+ • [Polymorphism Activity 1](q2/sg11_polymorphism-activity-1.py)
+ 
+ • [Polymorphism Activity 2](q2/sg11_polymorphism-activity-2.py)
 
 
 
